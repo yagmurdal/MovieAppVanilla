@@ -24,6 +24,7 @@ async function getMovies(title, pageNumber) {
         </div>
       `;
   });
+  searchInput.value = "";
 }
 
 searchInput.addEventListener("keyup", function (e) {
